@@ -1,0 +1,17 @@
+programa {
+  inclua biblioteca Matematica --> mat
+  funcao inicio() {
+  // par ou impar
+
+  inteiro numero// decralei a variavel
+  
+  escreva("infotma um numero:  ")
+  leia(numero)
+
+  se(numero % 2 == 0){
+    escreva("numero par : ",numero)
+  }senao
+  escreva("numero impar : ",numero)
+    
+  }
+}
