@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+    inteiro numero
+    escreva("informe um numero:  ")
+    leia(numero)
+
+    se(numero >0){
+      escreva("numero positivo")
+    }senao se(numero<0){
+      escreva("numero negativo")
+    }senao{
+      escreva("numero =0")
+    }
+    
+  }
+}
