@@ -6,7 +6,7 @@ programa {
 
     enquanto(X < 100)
     {
-    escreva(X)
+    escreva(X,"\n")
       X = X + 1
     }
     
