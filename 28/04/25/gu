@@ -1,0 +1,15 @@
+programa {
+  funcao inicio() {
+    /*Mostre os numeros de 10 ate 1 quando.*/
+
+    inteiro contador
+    contador = 10
+
+    //Utilização do loop ENQUANTO!
+    enquanto(contador>=0){
+      escreva(contador,"\n")
+      contador--
+    }
+    
+  }
+}
