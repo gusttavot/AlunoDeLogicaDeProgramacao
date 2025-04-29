@@ -1,0 +1,15 @@
+programa {
+  funcao inicio() {
+  inteiro numero, contador, par=0
+
+  para(contador=1; contador<=10; contador++){
+    escreva("\nMe fale um numero: ")
+    leia(numero)
+    
+    se(numero % 2 == 0){
+      par = par + 1
+    }
+  }
+  escreva("Quantidades de pares : ", par)
+  }
+}
