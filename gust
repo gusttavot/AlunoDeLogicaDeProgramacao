@@ -1,0 +1,14 @@
+programa {
+  funcao inicio() {
+
+     inteiro X, contador, aux = 0
+
+    X=0
+
+    enquanto(X < 100)
+    {
+    
+      X = X + 1
+      aux = aux + X
+      escreva("contador : ", X, "| aux : ", aux, "\n")
+    }
