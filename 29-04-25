@@ -1,0 +1,15 @@
+programa {
+  funcao inicio() {
+
+    inteiro numero, soma = 0
+
+    faca{
+      escreva(" fala a merda do numero : ")
+      leia(numero)
+      soma = soma + numero
+    } enquanto(numero != 0)
+    escreva("O teu resultado ai lixo: ", soma)
+
+        
+  }
+}
