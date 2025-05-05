@@ -1,0 +1,12 @@
+programa {
+  inclua biblioteca Matematica --> mat
+  funcao inicio() {
+
+    inteiro mult, contador
+
+    para(contador=3; contador <= 10; contador++){
+    escreva("Mult de ", contador, " e ", mat.potencia(contador,5),"\n")
+    
+    }
+  }
+}
