@@ -1,0 +1,40 @@
+<style>
+
+    body{
+        background-color: rgb(0, 0, 0);
+    }
+        p  { 
+            background-color: black;
+            color: rgb(255, 255, 255);
+            font-size: 50;
+        }
+
+        h1 {
+            background-color: rgb(0, 0, 0);
+            color: rgb(243, 49, 0);
+            font-weight: 150px;
+        }
+
+        button{
+            border: 50%;
+            margin: 10px 20x 30px;
+        }
+</style>
+</head>
+<body>
+
+<div>
+    <h1>Conheça Coisas Sobre o P Diddy</h1>
+</div>
+    <img src="https://media.giphy.com/media/l41lPRtUYtPtPH1Ly/giphy.gif"></img> 
+    
+    <div>
+        <a href="https://pt.wikipedia.org/wiki/Caso_P._Diddy">Sobre a Vida</a>
+    </div>
+    <div>
+
+        <a href="https://www.bing.com/videos/riverview/relatedvideo?&q=video+da+imagem+do+p+didd&qpvt=video+da+imagem+do+p+didd&mid=129F9A151D38A4CB0563129F9A151D38A4CB0563&&FORM=VRDGAR">Uma Parte da Hestória</a>
+    </div>
+    
+</body>
+</html>
