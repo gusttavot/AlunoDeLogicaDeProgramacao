@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>  body{
+        background-color: rgb(0, 0, 0);
+    }
+        p  { 
+            background-color: black;
+            color: rgb(255, 255, 255);
+            font-size: 50;
+        }
+
+        h1 {
+            background-color: rgb(0, 0, 0);
+            color: rgb(243, 49, 0);
+            font-weight: 150px;
+        }
+
+        button  {
+            border: 50%;
+            margin: 10px 20x 30px;
+
+        }</style>
+        </head>
+        <body>
+
+    <h1>Son Goku</h1>
+    <p>Criado Inspirado em Lenda Chinesa: Akira Toriyama originalmente inspirou-se na lenda chinesa de "Jornada ao Oeste" para criar Goku, que seria originalmente um macaco completo. </p>
+
+    <a href="https://pt.wikipedia.org/wiki/Goku">o link aqui mano</a>
+
+    <div>
+    <img src="https://animeflix.com.br/wp-content/uploads/2025/02/dragon-ball-daima-voz-de-goku-fala-sobre-a-batalha-final-do-anime-696x392.jpg" width="693" height="392"><img>
+</body>
+</html>
