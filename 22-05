@@ -19,3 +19,17 @@
     <script src="script.js"></script>
 </body>
 </html>
+///////////////////
+
+function MUDEIII(){
+
+    let nome = prompt("Informe seu nome");
+    document.getElementById("msgSaudacao").textContent = "Olá, " + nome;
+
+}
+\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+body{
+    background-color: black;
+    color: aquamarine;
+}
