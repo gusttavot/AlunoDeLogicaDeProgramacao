@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var bonus, salarioBruto, salarioLiquido, imposto
+        var salario = Number(prompt("Insira o salário do funcionário: "))
+
+        bonus = salario * 0.15
+            salarioBruto = salario + bonus //bruto
+
+        imposto = salarioBruto * 0.08
+            salarioLiquido = salarioBruto - imposto //liquido
+
+
+
+        alert("O salário reajustado é de R$" + salarioLiquido)
+    </script>
+</body>
+</html>
