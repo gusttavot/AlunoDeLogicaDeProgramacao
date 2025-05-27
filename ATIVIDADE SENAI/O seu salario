@@ -1,0 +1,11 @@
+var Sa = Number(prompt("Meta seu salario atual"))
+var ns;
+
+if (Sa < 500) {
+    ns = Sa + ( Sa * 0.15)
+}else if(salario < 1000) {
+    ns = Sa + Sa * 0.1
+}else {
+    ns = Sa + Sa * 0.05
+}
+alert(ns)
