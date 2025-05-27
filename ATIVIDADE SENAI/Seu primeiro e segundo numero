@@ -1,0 +1,11 @@
+var numA = Number(prompt("Meta seu primeiro número ae"))
+var numB = Number(prompt("Meta seu segundo numero ae"))
+var soma = 0
+
+soma = numA + numB
+if(soma>= 10){
+    alert(soma + 5)
+}
+else{
+    alert(soma - 7)
+}
