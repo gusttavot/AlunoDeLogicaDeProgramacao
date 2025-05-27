@@ -1,0 +1,8 @@
+var numero = Number(prompt("Meta um número: "))
+
+if(numero >= 20 || numero<= 90){
+    alert("O valor esta na faixa permitida")
+}
+else{
+    alert("O valor está fora da faixa permitida")
+}
