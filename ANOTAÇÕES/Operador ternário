@@ -1,0 +1,5 @@
+if(var Op.Real var){ 
+True
+}else{
+False
+VAR Op.Real var? true: false idade <12?"gratuito":"paga"
