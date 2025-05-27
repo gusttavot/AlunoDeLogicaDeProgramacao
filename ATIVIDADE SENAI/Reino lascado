@@ -1,0 +1,8 @@
+var idade = Number(prompt("Fale sua idade"))
+
+if(idade < 12 || idade > 60){
+    alert("Bem vindo ao reino lascado, Sua entrada foi de graça.")
+}
+else{
+    alert("Bem vindo ao reino lascado. Vocé tera que pagar por conta da sua idade")
+}
