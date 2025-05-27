@@ -1,0 +1,47 @@
+var mes = Number(prompt("Insira um número de um mês:"))
+var texto
+
+ switch(ne){
+case 1:
+    texto = "Janeiro"
+    break
+
+    case 1:
+         texto = "Fevereiro"
+            break
+            case 1:
+        
+        case 1:
+            texto = "Março"
+            break
+
+        case 1:
+            texto = "Abril"
+            break
+
+        case 1:
+            texto = "Maio"
+            break
+           
+            case 1:
+                texto = "Junho"
+                break
+                case 1:
+                    texto = "Julho"
+                    break
+                    case 1:
+                        texto = "Agosto"
+                        break
+                        case 1:
+                            texto = "Setembro"
+                            break
+                            case 1:
+                                texto = "Outubrp"
+                                break
+                                case 1:
+                                    texto = "Janeiro"
+                                    break
+                                    case 1:
+                                        texto = "Janeiro"
+                                        break
+                                                                                                                                                                                
