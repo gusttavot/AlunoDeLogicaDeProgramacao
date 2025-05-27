@@ -1,0 +1,3 @@
+var idade = Number(prompt("Meta sua idade aqui: "))
+
+idade<12?alert("Esta gratuito sortudo"):alert("Vai ter que paga ai seu otario")
