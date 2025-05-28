@@ -1,0 +1,42 @@
+1 O que é a sigla HTML?
+A= é um bloco de construção da web
+B= é um bloco de programação
+C= e um negocio de que esta dentro de um computador
+
+2  O que é uma string
+A= É um tipo de um de número
+B= É um comando especial
+C= É uma sequência de letras, números ou letras
+
+3 A estrutura "switch" serve para:
+A= Trocar de página automaticamente
+B= Executar diferentes blocos de código com base em valores
+C= É um código que faz imagens
+
+4 Qual é o resultado de 3 + "3" em JavaScript?
+A=33
+B= 6
+C= 3.3
+
+5 Qual das alternativas contém todos os elementos corretos de uma estrutura básica HTML?
+
+A= <html> <script> <css>
+B= <html> <head> <body>
+C= <style> <p> <body>
+
+6 Onde o CSS deve ser inserido para funcionar em uma página HTML?
+
+A= Apenas fora do HTML
+B= Somente no JavaScript
+C= Dentro de uma tag <style> ou em um arquivo externo
+
+7 Em HTML, qual tag é usada para criar um link clicável?
+A= <a>
+B= <href>
+C= <link>
+
+8 Em CSS, qual propriedade muda o tamanho do texto?
+A= font-size
+B= font-text
+C= text-size
+ 
