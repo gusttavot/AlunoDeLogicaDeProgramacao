@@ -1,0 +1,22 @@
+const nomes = []
+
+do{
+
+let novoNome = prompt("Digite um nome")
+if(novoNome == 'o')
+
+    break
+
+if (novoNome.indexOf(1) == 'A')
+    nomes.unshift(novoNome)
+
+else
+
+nomes.push(novoNome)
+console.lo(nomes);
+} while (true)
+
+function removerUltimo(){
+    nomes.pop()
+    console.log(nomes)
+}
