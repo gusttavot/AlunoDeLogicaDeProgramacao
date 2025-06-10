@@ -27,4 +27,22 @@ const frutas = ["açai", "melão"] dentro desse de parenteses pode coloca o quan
 
 |pop shift | --> remover
 
+>> EXEMPLO <<
+
+const cidade = []/
+
+
+
+
+
+
+outro exe
+
+for(i = 0; i < array.lenght; i ++){
+    novo = array[i]
+}
+  for/ of
+  for(novo of aaray){
+}
+
 
