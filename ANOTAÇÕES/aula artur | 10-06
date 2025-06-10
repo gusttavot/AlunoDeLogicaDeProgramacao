@@ -1,5 +1,30 @@
-VETORES (ARRAY)
+>> Antes de começar <<
+
+1. Abrir o gerenciador de arquivos do windows
+2. Selecionar a pasta Documentos
+3. Criar uma Nova Pasta
+4. Alterar o nome da Nova Pasta para javascript
+5. Abrir o Visual Studio Code
+6. Abrir pasta javascript
+
+>> Diferenças de While <<
+
+(PRÉ-CONDIÇÃO)
+  while(<c>){
+  //instruções
+  }do
+
+(PÓS CONDIÇÃO)
+  do{
+  //instruções
+  }while(<c>)
+
+>> VETORES (ARRAY) <<
 
 var nome = "ivo"
-const nomes = []
+const frutas = ["açai", "melão"] dentro desse de parenteses pode coloca o quanto quiser
+| push unshift | --> adicionar(param)
+
+|pop shift | --> remover
+
 
