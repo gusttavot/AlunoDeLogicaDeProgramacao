@@ -1,0 +1,30 @@
+const frutas = ["maçã", "banana", "açai", "abacaxi", "cupuaçu", "melão"]
+console.log(frutas)
+
+function buscarPorPosicao(){
+    posicao = prompt("Escolha elemento do array")
+    alert(frutas[posicao])
+}
+
+function tamanhoarray(){
+    alert(frutas.length)
+}
+
+function adicionarFinal(){
+    novafruta = prompt("Adicionar a uma nova fruta no final")
+    frutas.push(novafruta)
+    console.log(frutas)
+}
+function adcionarComeco(){
+    novafruta = prompt("adcionar a nova fruta começo")
+    frutas.unshift(novafruta)
+    console.log(frutas)
+}
+
+function varre(){
+    for(novafruta of frutas){
+        console.log(novafruta.charat(1))
+        if(novafruta.charat(1) == "i")
+            alert(novafruta)
+    }
+}
