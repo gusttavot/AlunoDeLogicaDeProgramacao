@@ -1,4 +1,30 @@
-Continuação de Vetores (array)
+>> Continuação de Vetores (array) <<
+
 Pos X Qnt --> A diferença entre os dois é que o "pos" começa com 0 e o "qnt" começa 1.
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+>> VERSÃO DE FOR <<
+
+1.for(var of array)
+2.forEach (função())
+soma = 0
+nums.forEach(nums
 
 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+function nome () {}
+var soma = function () {
+  return A+B
+}
+arrow function --> () A+B
+
+>> forEach <<
+
+syntax
+array.forEach (funtction(elemeto, index, array){
+//intrução
+});
+
+for (cid
