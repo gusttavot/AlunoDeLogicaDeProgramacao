@@ -27,4 +27,9 @@ array.forEach (funtction(elemeto, index, array){
 //intrução
 });
 
-for (cid
+ for(cid of cidades)
+  soma += cid
+  cid=cidades[i]
+  cidades.forEach(function(cid)){
+  //cid
+  }
