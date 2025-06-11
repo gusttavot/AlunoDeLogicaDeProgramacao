@@ -1,4 +1,4 @@
->> Continuação de Vetores (array) <<
+ >> Continuação de Vetores (array) <<
 
 Pos X Qnt --> A diferença entre os dois é que o "pos" começa com 0 e o "qnt" começa 1.
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -33,3 +33,13 @@ array.forEach (funtction(elemeto, index, array){
   cidades.forEach(function(cid)){
   //cid
   }
+
+>> Localizar <<
+
+indexOf (Incio
+
+posição <--Cidades.indexOf (Param)
+-1 =ñ encontra
+
+Boolean <--include (Param)
+
