@@ -22,7 +22,7 @@
 >> VETORES (ARRAY) <<
 
 var nome = "ivo"
-const frutas = ["açai", "melão"] dentro desse de parenteses pode coloca o quanto quiser
+const frutas = ["açai", "melão"] dentro desses [] pode coloca o quanto quiser
 | push unshift | --> adicionar(param)
 
 |pop shift | --> remover
