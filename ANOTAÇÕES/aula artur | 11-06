@@ -41,5 +41,6 @@ indexOf (Incio
 posição <--Cidades.indexOf (Param)
 -1 =ñ encontra
 
-Boolean <--include (Param)
+Boolean <--include (Param).
+
 
