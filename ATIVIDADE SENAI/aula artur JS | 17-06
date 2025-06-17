@@ -1,0 +1,40 @@
+const diviniciar = document.getElementById("diviniciar")
+const divareajogo = document.getElementById("areajogo")
+
+const perguntas = [
+
+    "Qual é o maior deserto do mundo?",
+    "Qual é a capital do Brasil?",
+    "Qual é a capital da Austrália?",
+    "Qual é o país com maior população no mundo?",
+    " Qual a linha imaginária que atravessa o Brasil?",
+    "Qual o oceano que banha o Brasil?",
+]
+let indicedeperguntas = 0
+let botaoDePergunta = document.createElement("button")
+
+function iniciarjogo(){
+    fecharbotaoinicio()
+    abrirareajogo()
+}
+
+function fecharbotaoinicio(){
+    diviniciar.innerHTML = ""
+}
+
+function abrirareajogo(){
+    divareajogo.classList.add("active")
+
+    let botaoDePergunta = document.createElement("button")
+        botaoDePergunta.textContent = perguntas[4]
+        botaoDePergunta.classList.add("answer-btn")
+        areaperguntas.appendChild(botaoDePergunta)
+}
+
+function proximapergunta(){
+    indicedeperguntas++
+    if(indicedeperguntas < perguntas.length)
+    abrirareajogo()
+    else
+    alert("Não tem mais perguntas")
+}
