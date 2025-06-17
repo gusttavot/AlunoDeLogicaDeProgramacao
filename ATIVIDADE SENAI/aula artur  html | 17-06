@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div id="diviniciar">
+        <button id="botaoiniciar" class="main-btn" onclick="iniciarjogo()">Inciar</button>
+    </div>
+    <div id="areajogo" class="tela-container">
+        <div id="areaperguntas" class="opcoesRespostas"></div>
+        <button class="botaoProximo" onclick="proximapergunta">proxima pergunta</button>
+    </div>
+
+    <script src="aula-1.js"></script>
+</body>
+</html>
