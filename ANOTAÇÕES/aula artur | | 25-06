@@ -2,4 +2,9 @@
 
 chave: valor
 localStorage. |   setItem( )
-              |   getItem( )
+              |   getItem(chave ) => valor
+
+ls.key(i) = chave
+for(i=o; i<Ls.lenght;**)
+
+
