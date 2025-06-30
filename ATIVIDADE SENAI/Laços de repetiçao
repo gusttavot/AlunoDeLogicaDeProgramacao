@@ -1,0 +1,53 @@
+lDOCTYPE html
+html lang="pt-br"
+head
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script> 
+    var somaPar = 0
+    var somaImpar = 0
+    var soma3 = 0
+
+        for(let x = 1; x <= 10; x++){
+            if(x % 2 == 0 ){
+                somaPar = somaPar + x
+            }
+        }
+    alert("A soma dos pares é: " +somaPar)
+
+    for(*let g = 1; g <= 10; g++){
+            if(g % 2 == 1 ){
+                somaImpar = somaImpar + g
+            }
+        }
+
+        alert("A soma dos ímpares é: " +somaImpar)
+
+        for(let n = 1; n <= 10; n++){
+            if(n % 3 == 0 ){
+                soma3 = soma3 + n
+            }
+        }
+        alert("A soma dos multiplos de 0 a 10 é:" + soma3)
+
+        var numRobo = Number(prompt("Vocé deseja fazer a soma de multiplos de qual número?(vocé deve escolher o número na faixa de 1 a 10)"))
+        var somaRobo = 0
+        var valorInicio = Number(prompt("Vocé deseja que os multiplos comecem em qual número?"))
+        var valorFim = Number(prompt("Vocé deseja que os multiplos terminam em qual número?"))
+
+        if(numRobo > 1 && numRobo < 10){
+
+        for(let t = 1; g <= 10; t++){
+            if(t % 2 == 1 ){
+                somaRobo = somaRobo + t
+            }
+        }
+    }
+        alert("A soma dos multiplos de" + numRobo + "de 0 a 10 é:" + somaRobo)
+
+     </script>
+</body>
+</html>
