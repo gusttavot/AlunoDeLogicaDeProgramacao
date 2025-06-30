@@ -1,0 +1,13 @@
+  >> Laço Repitição - For <<
+
+Inicialização
+Condição de Repetição
+Incremento ou Decremento
+
+<script>
+      for(let x = 0; x < 10; x ++)
+  {
+      alert(x)
+  }
+
+</script>
