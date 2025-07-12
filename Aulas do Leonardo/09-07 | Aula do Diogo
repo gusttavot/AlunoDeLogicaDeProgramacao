@@ -1,1 +1,74 @@
+>> 1ª Lei de Ohm:
 
+ "A intensidade da corrente elétrica em um circuito é diretamente proporcional à tensão aplcada e inversamente proporcional à sua resistência."
+ Onde:
+
+  V = R * I
+
+- V = Tensão elétrica [volts - V]
+- I = corrente elétrica [amper - A]
+- R = resistência elétrica [ohm - Ω]
+
+>> 2ª Lei de Ohm:
+
+ "A resistência elétrica de um condutor homogêneo de secção transversal constante é diretamente proporcional ao seu comprimento e inversamente proporcional à sua área de secção
+ transversal e depende do material do qual ele é feito."
+
+  R = P * L / A
+
+- L = comprimento (m)
+- A = área (m²)
+- P = Resistividade (m * Ω)
+
+>> Exercícios
+
+-> 1 Encontre a corrente dos circuitos elétricos abaixo:
+
+A) Fonte geradora de 12V, com resistência em 330Ω.
+ 12 = 330 * i
+ i = 12 / 330 = 0.36A
+Resposta: 0.36A
+
+B) Fonte geradora de 24V, com resistência de 1,2kΩ.
+ 24 = 1200 * i
+ i = 24 / 1200 = 0.02A
+Resposta: 0.02A
+
+C) Fonte geradora de 30V, com resistência de 5Ω.
+
+
+D) Fonte geradora de 3,3V, com resistência 280Ω.
+ 3,3 = 280 * i
+ i = 3,3 / 280 = 0.01A
+Resposta: 0.01A
+
+-> 2 Encontre a resistência dos circuitos elétricos abaixo:
+
+A) Fonte geradora 3,3V, com corrente de 5mA.
+
+
+B) Fonte geradora de 30V, com corrente de 1A.
+ 30 = R * 1
+ R = 30 / 1 = 30Ω
+Resposta = 30Ω
+
+C) Fonte geradora de 12V, com corrente de 136mA.
+ 12 = R . 0,00136
+ R = 12 / 0,136 = 0,08Ω
+Resposta = 0,08Ω
+
+D) Fonte geradora de 24V, com corrente de 40mA.
+
+ 24 = R * 0,04
+ R = 24 / 0,04 = 600Ω
+Resposta = 600Ω
+
+-> 3 Encontre a tensão dos circuitos elétricos abaixo:
+
+A) Corrente de 1A, resistência de 5Ω.
+
+B) Corrente de 136mA, resistência de 1,2kΩ.
+
+C) Corrente de 40mA, resistência de 330Ω.
+
+D) Corrente de 5mA, resistência de 280Ω.
