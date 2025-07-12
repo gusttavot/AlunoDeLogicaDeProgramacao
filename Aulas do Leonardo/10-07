@@ -1,13 +1,312 @@
->>ATVIDADES<<
+E-mail do professor: leonardo.fiori@edu.sc.senai.br
 
-1-Qual a equação da lei e ohm?
-I= v/R [A]
-V=R.I [V]
-R=V/I [Ω]
+>> Lei de Ohm
 
-2- Dê as equações e as unidades de medida para corrente, tensão e
-resistencia elétrica, segundoa lei de Ohm
+ Estabelece uma relação entre as grandezas elétricas: Tensão (V), Corrente (V) e Resistência (R) em um circuito.
 
-3-No circuito abaixo, calcule os valores segundo a lei de ohm
+    i (Corrente) = V/R [A]
+    R (Resistência) = V/I [Ω]
+    V (Tensão) = R * i [V]
 
-A} 
+- Exemplo 1 de Corrente:
+
+    V = 6V
+    R = 120Ω
+    I = ?
+
+    I = V/R
+    I = 6/120
+    I = 0,05A
+
+- Exemplo 2 de Resistência:
+
+    V = 9V
+    R = ?
+    I = 300mA
+
+    R = V/i
+    R= 9/0,3
+    R = 30Ω
+
+- Exemplo 3 de Tensão:
+
+    V = ?
+    R = 22kΩ
+    I = 100mA
+
+    V = R * I
+    V = 22000 * 0,100
+    V = 2200V
+
+>> Potência Elétrica
+
+ Existem lâmpadas que não produzem a mesma quantidade de luz.
+ Aquecedores que esquentam mais rápido que outros.
+ Chuveiros que aquecem mais rápido que outros.
+ Isso se deve a uma POTÊNCIA ELÉTRICA (P) diferente, medido em Watt (W).
+
+ 1 Watt corresponde à potência dissolvida em 1 segundo à uma carga alimentada por 1V e com uma corrente elétrica de 1A.
+
+    P = V * I [W]
+
+ Como vimos, P = V * I, sendo V tensão em Volts (V), I a corrente elétrica em Ampères (A), e por consequência a potência P em Watt (W).
+
+- Exemplo 4 de Potência:
+
+ Uma lanterna que 4 pilhas AAA, somando 6V consome uma corrente de 0,5A. Qual a potência da lâmpada?
+
+    V = 6V
+    I = 0,5A
+    6 * 0,5 = 3W
+
+ Ora, se sabemos a fórmula da potência, podemos encontrar a da corrente e da tensâo também
+
+    P = V * I [W]
+    P = R * I² [W]
+    P = V² / R [W]
+
+ Ou podemos manipular:
+
+    I = P / V
+    V = P / I
+
+    ################################ + ################################
+
+ Substituindo na Lei de Ohm, tem-se o seguinte:
+
+  Potência (P):
+    V * I
+    R * I²
+    V² / R
+
+  Tensão (V):
+    R * I
+    P / I
+    √(P * R)
+
+  Resistência (R):
+    V / I
+    V² / P
+    P / I²
+
+  Corrente (I):
+    V / R
+    P / V
+    √(P / R)
+
+
+
+ Para facilitar, podemos fazer um triângulo com as três bases: V tensão, R resistência, e I corrente.
+
+      V
+    R   I
+
+    ################################ + ################################
+
+- Exemplo 5:
+
+ Um aquecedor elétrico de 8Ω solicita uma corrente de 10A.
+ Calcule a potência desse aquecedor.
+
+    R = 8Ω
+    I = 10A
+    P = ?
+
+    P = R * I²
+    P = 8 * 10²
+    P = 8 * 100
+    P = 800W
+
+- Exemplo 6:
+ Um acendedor de cigarro de um automóvel funciona com 12V fornecidos pela bateria.
+ Sabendo que a resistência é de 3Ω, qual a potência desse aquecedor?
+
+    V = 12V
+    R = 3
+    P = ?
+
+    P = V² / R
+    P - 12² / 3
+    P = 144 / 3
+    P = 48W
+
+- Exemplo 7: 
+ Qual a tensão de alimentação de um equipamento de 2A com potência 16W?
+
+    I = 2A
+    P = 16W
+    V = ?
+
+    V = P / I
+    V = 16 / 2
+    V = 8V
+
+-> Potência nominal: alguns aparelhos obedecem uma tensão previamente esbalecida, como chuveiros (110V ou 220V).
+
+>> Capacitores e Indutores.
+
+!> Capacitor:
+ É um elemento capaz de acumular cargas elétricas e de devolvê-las em um segundo momento; Armazena energia.
+
+ Podem ser:
+
+-> Fixos: Papel, poliéster, cerâmico, eletrolítico.
+
+-> Variáveis: Ar ou mica.
+
+ Consiste em duas placas condutoras (geralmente metálicas) em m material isolante entre elas.
+ O isolante é o que se altera (cerâmica, ar, filme plástico...)
+ É representado pela letra C (capacitor) e a unidade de medida é Farad (F).
+
+-> Capacitores em série:
+
+    1 / Ceq = 1 / C1 + 1 / C2 + 1 / C3 + ... + 1 / Cn
+
+-> Capacitores em paralelo:
+
+    Ceq = C1 + C2 + C3 + ... + Cn
+
+-> Capacitor - Aplicações
+
+ Temporarizador e delay;
+ Filtragem de ruídos e conversor CA/CC;
+ Armazenamento de energia;
+ Correção de fator de potência;
+ Energia de backup em caso de falta;
+
+!> Indutor: 
+ São componentes qu têm a finalidade de introduzir um centro de indutância em circuito elétrico 
+ (acumula energia eletromagnética e devolve em um segundo momento).
+
+ Podem ser fixos ou variáveis,  mas apenas de ar ou nucléo magnético.
+ Consiste um condutor de cobre enrolado em um núcleo (de ar ou ferro) montado em um isolante.
+ É representado pela letra I (indutor) e a unidade de medida é Henry (H).
+
+-> Indutor - Aplicações
+
+ Filtro eletromagnético;
+ Transformador;
+ Conversor DC;
+ Motores elétricos;
+
+
+--- + ---
+
+>> Exercícios 1
+
+-> 1 Qual a equação da Lei de Ohm?
+
+-> 2 Dê as equações e as unidades de medida para corrente, tensão e resistência elétrica, segundo a Lei de Ohm.
+
+Resposta: i (Corrente) = V/R [A]
+R (Resistência) = V/I [Ω]
+V (Tensão) = R * i [V]
+
+-> 3 No circuito abaixo, calcule os valores segundo a Lei de Ohm.
+
+a) V = 5V
+   R = 330Ω
+   I = ?
+Resposta: 5 / 330 = 0,015A
+
+b) v = 30V
+   R = ?
+   I = 0,2A
+Resposta: 30 / 0,2 = 150Ω
+
+c) V = ?
+   R = 1,2kΩ
+   I = 15mA
+Resposta: 1200 * 0,015 = 18V
+
+d) V = ?
+   R = 200Ω
+   I = 300mA
+Resposta = 200 * 0,300 = 60V
+
+e) V = 12V
+   R = ?
+   I = 1250uA
+Resposta: 12 / 0,00125 = 9,6kΩ
+
+f) V = 60V
+   R = 680Ω
+   I = ?
+Resposta: 60 / 680 = 0,08A
+   
+>> Exercícios 2
+
+-> 1 O que é potência elétrica? Qual a sua unidade de medida?
+
+-> 2 Dê as equações e as unidades de medida para corrente, tensão e potência elétrica.
+
+-> 3 No circuito abaixo, calcule os valores faltantes:
+
+a) V = 8V
+   R = 4Ω
+   I = ?
+   P = ?
+Resposta:
+   V / R
+   8 / 4 = 2A
+
+   R * I²
+   4 * 2² = 16W
+Resultado:
+   V = 8V
+   R = 4Ω
+   I = 2A
+   P = 16W
+
+---
+
+b) V = 2V
+   R = ?
+   I = 0,2A
+   P = ?
+Resposta:
+   V * I
+   2 * 0,2 = 0,4W
+
+   P / I
+   0,2 / 0,4 = 0,5Ω
+Resultado:
+   V = 2V
+   R = 0,5Ω
+   I = 0,2A
+   P = 0,4
+
+---
+
+c) V = ?
+   R = ?
+   I = 25mA
+   P = 0,3W
+Resposta:
+  P / I
+  0,3 / 0,025 = 12V
+
+  V / I
+  12 / 0,025 = 480Ω
+Resultado:
+   V = 12
+   R = 480Ω
+   I = 25mA
+   P = 0,3W
+
+---
+
+d) V = 10V
+   R = ?
+   I = ?
+   P = 2,5kW
+
+e) V = 12V
+   R = ?
+   I = 3A
+   P = ?
+
+f) V = 1V
+   R = ?
+   I = ?
+   P = 200mW
