@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A MOMO</title>
+    <link rel="stylesheet" href="terro.css">
+    <style>
+        #historia {
+            display: none;
+            margin-top: 20px;
+        }
+
+        .botao-imagem {
+            cursor: pointer;
+            width: 150px; /* Ajuste o tamanho conforme necessário */
+            transition: transform 0.2s;
+        }
+
+        .botao-imagem:hover {
+            transform: scale(1.05);
+        }
+
+        h1, h2, h3 {
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body> 
+    <div class="pagina">
+        <div id="capa"></div>
+
+        <h1>A MOMO</h1>
+
+        <!-- Imagem usada como botão -->
+        <img src="botao-momo.png" alt="Ler história" class="botao-imagem" onclick="mostrarHistoria()">
+
+        <div id="historia">
+            <h2>Capítulo 1: A Origem da Lenda</h2>
+            <h3>
+                Era uma noite abafada de sexta-feira. Júlia, de 14 anos, estava em casa sozinha enquanto os pais viajavam para visitar parentes...
+            </h3>
+
+            <h2>Capítulo 2: Presa no Espelho</h2>
+            <h3>
+                No dia seguinte, Júlia estava pálida. Não contou nada para os amigos...
+            </h3>
+
+            <h2>Capítulo 3: O Jogo Final</h2>
+            <h3>
+                Júlia recebeu a última mensagem: "A última fase começa hoje."...
+            </h3>
+        </div>
+    </div>
+
+    <script>
+        function mostrarHistoria() {
+            var conteudo = document.getElementById("historia");
+            conteudo.style.display = conteudo.style.display === "none" ? "block" : "none";
+        }
+    </script>
+</body>
+</html>
