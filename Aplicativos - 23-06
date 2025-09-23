@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .hidden{display: none}
+</style>
+<body>
+    <div id="Tabela">
+        <table border="1"s>
+        <tr>
+            <th>Nome</th>.
+            <th>Nota</th>
+            <th>Situação</th>
+        </tr>
+        <tbody id="Corpo"></tbody>
+        </table>
+    </div>
+    <br><br>
+    <div id="Sumir">
+        <button onclick="Sumir()">Sumir</button>
+    </div>
+    <div id="Aparecer">
+        <button onclick="Aparecer()">Aparecer</button>
+    </div>
+    <script>
+        let Nomes = ["Romario","lula","Dilma"]
+        let Notas = [9,7,5]
+        let Situações = ["Aprovado","Aprovado","Reporvado"]
+
+        let Corpo = document.getElementById("Corpo")
+        for (let i = 0 ; i < Nomes.length; i++){
+            let linha = document.createElement("tr")
+            linha.innerHTML = `
+                            <td>${Nomes[i]}</tb>            
+                            <td>${Notas[i]}</tb>            
+                            <td>${Situações[i]}</tb          
+            
+            `
+            Corpo.appendChild(linha)
+        }
+
+        function Sumir(){
+            document.getElementById("Tabela").classList.add("hidden")
+            document.getElementById("Sumir").classList.add("hidden")
+            document.getElementById("Aparecer").classList.remove("hidden")
+        }
+        function Aparecer(){
+            document.getElementById("Tabela").classList.remove("hidden")
+            document.getElementById("Sumir").classList.remove("hidden")
+            document.getElementById("Aparecer").classList.add("hidden")
+        }
+    </script>
+</body>
+</html>
